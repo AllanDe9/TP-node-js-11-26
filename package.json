@@ -1,0 +1,20 @@
+{
+  "name": "mon-premier-projet",
+  "version": "0.1.0",
+  "description": "Mon premier projet",
+  "license": "MIT",
+  "author": "Amin NAIRI",
+  "type": "modules",
+  "main": "src/index.ts",
+  "scripts": {
+    "lint": "tsc",
+    "dev": "rolldown --config rolldown.config.ts --watch",
+    "build": "rolldown --config rolldown.config.ts"
+  },
+  "devDependencies": {
+    "@rollup/plugin-run": "^3.1.0",
+    "@types/node": "^26.6.3",
+    "rolldown": "^1.2.11",
+    "typescript": "^7.0.2"
+  }
+}
